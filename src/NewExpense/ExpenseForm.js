@@ -51,7 +51,7 @@ const ExpenseForm = () => {
           <label>Title</label>
           <input type="text" value={titleState} onChange={ titleChangeHandler }/>
         </div>
-        {/* <p>{() => { new Date('2022-03-02/p> */}
+        {/* <p>{() => { new Date('2022-03-02/> */}
         
         <div className='new-expense__control'>
           <label>Amount</label>
