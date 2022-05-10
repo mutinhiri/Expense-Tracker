@@ -1,2 +1,2 @@
 # Expense-Tracker
-This a Expense react app
+This a Expense react app ongoing project 
