@@ -7,7 +7,7 @@ function ExpenseDate(props) {
         <div>
             <div>{ month }</div>
             <div>{ year }</div>
-            <div>{day}</div>
+            <div>{ day }</div>
         </div>
     )
 }
