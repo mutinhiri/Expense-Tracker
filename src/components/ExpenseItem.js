@@ -8,6 +8,8 @@ function ExpenseItem(props) {
         <div className='expense-item'>
             <div>
                 <div></div>
+                <div></div>
+                <div></div>
             </div>
             <div className='expense-item__description'>
                 <h2>{props.title }</h2>
