@@ -8,7 +8,7 @@ function ExpenseItem() {
         <div className='expense-item'>
             <div>March 23 2022</div>
             <div className='expense-item__description'>
-                <h2>{Math.random() }</h2>
+                <h2>{expenseTitle }</h2>
                 <div className='expense-item__price'>$ 456</div>
             </div>
         </div>
