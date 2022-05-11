@@ -8,12 +8,14 @@ function App() {
        amount: 294, 
        date: new Date(2022, 3, 12)
     },
+
     { 
       id: "e2",
       title: "Medical expense", 
       amount: 40, 
       date: new Date(2022, 3, 24)
     },
+    
     { title: "Food", amount: 60, date: new Date(2022, 4, 12)}
   ];
   return (
