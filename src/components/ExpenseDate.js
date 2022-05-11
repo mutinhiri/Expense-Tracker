@@ -1,3 +1,5 @@
-function ExpenseDate(){
-    
+function ExpenseDate() {
+
 }
+
+export default ExpenseDate
