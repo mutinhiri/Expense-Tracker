@@ -1,7 +1,9 @@
 import ExpenseItem from "./components/ExpenseItem";
 
 function App() {
-  const expenses = [];
+  const expenses = [
+    { title: ""}
+  ];
   return (
     <div>
       <h2>Let's get started now </h2>
