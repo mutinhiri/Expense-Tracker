@@ -2,7 +2,7 @@ import ExpenseItem from "./components/ExpenseItem";
 
 function App() {
   const expenses = [
-    { title: "Car Insurance"}
+    { title: "Car Insurance", amount: 294}
   ];
   return (
     <div>
