@@ -8,8 +8,8 @@ function ExpenseItem(props) {
         <div className='expense-item'>
             <div>
                 <div>Month</div>
-                <div></div>
-                <div></div>
+                <div>Year</div>
+                <div>Day</div>
             </div>
             <div className='expense-item__description'>
                 <h2>{props.title }</h2>
