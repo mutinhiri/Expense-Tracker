@@ -27,7 +27,7 @@ function App() {
       <h2>Let's get started now </h2>
       <p>This is also visible</p>
       <ExpenseItem title= { expenses[0].title} amount= {expenses[0].amount} date={expenses[0].date}/>
-      <ExpenseItem title={expenses[1].title} amount={}/>
+      <ExpenseItem title={expenses[1].title} amount={expenses[1].amount}/>
     </div>
   );
 }
