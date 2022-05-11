@@ -15,8 +15,12 @@ function App() {
       amount: 40, 
       date: new Date(2022, 3, 24)
     },
-    
-    { title: "Food", amount: 60, date: new Date(2022, 4, 12)}
+
+    { 
+      id: "e3",
+      title: "Food", 
+      amount: 60, 
+      date: new Date(2022, 4, 12)}
   ];
   return (
     <div>
