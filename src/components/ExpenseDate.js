@@ -7,7 +7,7 @@ function ExpenseDate(props) {
 
     return (
         <div className='expense-date'>
-            <div>{ month }</div>
+            <div className="expense-month">{ month }</div>
             <div>{ year }</div>
             <div>{ day }</div>
         </div>
