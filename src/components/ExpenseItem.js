@@ -1,10 +1,11 @@
 import ExpenseDate from './ExpenseDate';
+import React from 'react';
 // import Card from './Card';
 import './ExpenseItem.css'
 
 function ExpenseItem(props) {
     let title = props.title
-    
+
     const clickHandler = () => {
         console.log('click work')
     }
