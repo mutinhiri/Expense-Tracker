@@ -15,7 +15,7 @@ function ExpenseItem(props) {
                 <h2>{title }</h2>
                 <div className='expense-item__price'>{props.amount}</div>
             </div>
-            <button onClick={() => {console.log('licked ')}}>Change title</button>
+            <button onClick={}>Change title</button>
         </div>
     )
 }
