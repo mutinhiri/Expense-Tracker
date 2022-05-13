@@ -3,6 +3,7 @@ import ExpenseDate from './ExpenseDate';
 import './ExpenseItem.css'
 
 function ExpenseItem(props) {
+    const clickHandler
 
     return (
         <div className='expense-item'>
