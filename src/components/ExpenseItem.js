@@ -3,7 +3,7 @@ import ExpenseDate from './ExpenseDate';
 import './ExpenseItem.css'
 
 function ExpenseItem(props) {
-    title = props.title
+    let title = props.title
     const clickHandler = () => {
 
     }
