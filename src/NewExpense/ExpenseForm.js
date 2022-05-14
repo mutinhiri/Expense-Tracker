@@ -27,7 +27,7 @@ const ExpenseForm = () => {
     e.preventDefault()
 
     const newInfo = {
-      
+      title: titleState
     }
   }
 
