@@ -4,7 +4,9 @@ import './ExpenseForm'
 const ExpenseForm = () => {
   return(
     <form>
-      <div></div>
+      <div className='new-expense__controls'>
+        
+      </div>
     </form>
   )
 
