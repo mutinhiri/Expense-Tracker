@@ -12,7 +12,7 @@ const ExpenseForm = () => {
 
         <div className='new-expense__control'>
           <label>Amount</label>
-          <input type="number"/>
+          <input type="number" min=""/>
         </div>
       </div>
     </form>
