@@ -3,7 +3,7 @@ import './ExpenseForm'
 
 const ExpenseForm = () => {
   const titleChangeHandler = (e) => {
-    console.log(e)
+    console.log(e.target.value)
   }
 
   return(
