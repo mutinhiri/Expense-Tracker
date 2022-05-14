@@ -38,6 +38,7 @@ const ExpenseForm = () => {
       amount: amountChange,
       date: new Date(datei)
     }
+    console.log(newInfo)
   }
   return(
     <form onSubmit={ submitHandler }>
