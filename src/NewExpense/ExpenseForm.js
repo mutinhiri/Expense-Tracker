@@ -3,7 +3,9 @@ import './ExpenseForm'
 
 const ExpenseForm = () => {
   return(
-    <form></form>
+    <form>
+      <div></div>
+    </form>
   )
 
 }
