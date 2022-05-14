@@ -2,8 +2,8 @@ import React from 'react'
 import './ExpenseForm'
 
 const ExpenseForm = () => {
-  const titleChangeHandler = () => {
-
+  const titleChangeHandler = (e) => {
+    console.log(e)
   }
 
   return(
