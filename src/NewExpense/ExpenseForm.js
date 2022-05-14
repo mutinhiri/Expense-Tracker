@@ -7,9 +7,9 @@ const ExpenseForm = () => {
   // const [datei, setDatei] = useState()
 
   const titleChangeHandler = (e) => {
-    setTitleState(e.target.value)
-    setAmountChange(e.target.value)
-    setDatei(e.target.value)
+    // setTitleState(e.target.value)
+    // setAmountChange(e.target.value)
+    // setDatei(e.target.value)
     const [userInput, setUserInput] = useState({
       enteredTitle: '',
       enteredAmount: '',
