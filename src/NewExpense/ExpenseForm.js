@@ -2,7 +2,7 @@ import React, { useState} from 'react'
 import './ExpenseForm'
 
 const ExpenseForm = () => {
-useState()
+  const [titleState, setTitleState] = useState()
 
   const titleChangeHandler = (e) => {
     console.log(e.target.value)
