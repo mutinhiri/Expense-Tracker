@@ -23,7 +23,7 @@ const ExpenseForm = () => {
   }
 
   return(
-    <form onSubmit={}>
+    <form onSubmit={ submit }>
       <div className='new-expense__controls'>
         <div className='new-expense__control'>
           <label>Title</label>
