@@ -5,7 +5,7 @@ const ExpenseForm = () => {
   const [titleState, setTitleState] = useState()
 
   const titleChangeHandler = (e) => {
-    console.log(e.target.value)
+    setTitleState(e.target.value)
   }
 
   return(
