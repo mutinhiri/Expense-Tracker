@@ -3,7 +3,7 @@ import './NewExpense.css'
 
 const NewExpense = () => {
     return(
-        <div>
+        <div className='new-expense'>
             <form>
                 <p>Expense item rendered </p>
             </form>
