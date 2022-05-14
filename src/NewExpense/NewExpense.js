@@ -2,9 +2,9 @@ import React from 'react'
 
 const NewExpense = () => {
     return(
-        <div>
+        <form>
             <p>Expense item rendered </p>
-        </div>
+        </form>
     )
 }
 
