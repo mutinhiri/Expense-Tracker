@@ -22,7 +22,7 @@ const ExpenseForm = () => {
   
   }
 
-  const submitHandler  = (e) => {
+  const submitHandler  = () => {
     console.log('submitted')
     e.preventDefault()
   }
