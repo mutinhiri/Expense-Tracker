@@ -7,3 +7,5 @@ NewExpense = () => {
         </div>
     )
 }
+
+export default NewExpense;
