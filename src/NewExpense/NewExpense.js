@@ -1,6 +1,6 @@
 import React from 'react'
 
-NewExpense = () => {
+const NewExpense = () => {
     return(
         <div>
             <p>Expense item rendered </p>
