@@ -10,6 +10,7 @@ const ExpenseForm = () => {
     setTitleState(e.target.value)
     setAmountChange(e.target.value)
     setDatei(e.target.value)
+    useState({})
   }
 
   return(
