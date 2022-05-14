@@ -4,8 +4,7 @@ import ExpenseDate from './ExpenseDate';
 import './ExpenseItem.css'
 
 function ExpenseItem(props) {
-    let title = props.title
-    
+
     const [title, setTitle] = useState(props.title)
 
     const clickHandler = () => {
