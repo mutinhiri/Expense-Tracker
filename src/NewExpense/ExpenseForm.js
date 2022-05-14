@@ -25,6 +25,10 @@ const ExpenseForm = () => {
   const submitHandler  = (e) => {
     console.log('submitted')
     e.preventDefault()
+
+    const newInfo = {
+      
+    }
   }
 
   return(
