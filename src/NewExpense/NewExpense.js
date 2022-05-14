@@ -5,8 +5,8 @@ const NewExpense = () => {
     return(
         <div>
             <form>
-            <p>Expense item rendered </p>
-        </form>
+                <p>Expense item rendered </p>
+            </form>
         </div>
     )
 }
