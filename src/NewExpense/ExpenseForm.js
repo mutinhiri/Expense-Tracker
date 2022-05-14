@@ -3,7 +3,7 @@ import './ExpenseForm'
 
 const ExpenseForm = () => {
   const [titleState, setTitleState] = useState()
-  const [amountChange, setAmountChange] = useState(2)
+  const [amountChange, setAmountChange] = useState()
   const [datei, setDatei] = useState()
   // const [userInput, setUserInput] = useState({
   //   enteredTitle: '',
