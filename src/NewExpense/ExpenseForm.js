@@ -3,7 +3,7 @@ import './ExpenseForm'
 
 const ExpenseForm = () => {
   const [titleState, setTitleState] = useState()
-  const [amountChange, setAmountChange] = useState()
+  const [amountChange, setAmountChange] = useState(2)
 
   const titleChangeHandler = (e) => {
     setTitleState(e.target.value)
@@ -18,7 +18,7 @@ const ExpenseForm = () => {
           <input type="text" onChange={ titleChangeHandler }/>
         </div>
         
-
+<p>{amountChange}</p>
         <div className='new-expense__control'>
           <label>Amount</label>
           <input type="number" min="0.01" step="0.01" onChange={ titleChangeHandler}/>
