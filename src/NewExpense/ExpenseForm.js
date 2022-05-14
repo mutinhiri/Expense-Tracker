@@ -22,6 +22,10 @@ const ExpenseForm = () => {
   
   }
 
+  const submit = () => {
+    
+  }
+
   return(
     <form onSubmit={ submit }>
       <div className='new-expense__controls'>
