@@ -2,9 +2,9 @@ import React, { useState} from 'react'
 import './ExpenseForm'
 
 const ExpenseForm = () => {
-  const [titleState, setTitleState] = useState()
-  const [amountChange, setAmountChange] = useState(2)
-  const [datei, setDatei] = useState()
+  // const [titleState, setTitleState] = useState()
+  // const [amountChange, setAmountChange] = useState(2)
+  // const [datei, setDatei] = useState()
 
   const titleChangeHandler = (e) => {
     setTitleState(e.target.value)
