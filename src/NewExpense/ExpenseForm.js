@@ -2,6 +2,9 @@ import React from 'react'
 import './ExpenseForm'
 
 const ExpenseForm = () => {
+  return(
+    <form></form>
+  )
 
 }
 
