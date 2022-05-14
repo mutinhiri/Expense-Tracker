@@ -43,6 +43,7 @@ const ExpenseForm = () => {
     setAmountChange('')
     setDatei('')
   }
+
   return(
     <form onSubmit={ submitHandler }>
       <div className='new-expense__controls'>
@@ -70,4 +71,4 @@ const ExpenseForm = () => {
 
 }
 
-export default ExpenseForm
+export default ExpenseForm;
