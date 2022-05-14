@@ -20,8 +20,8 @@ const ExpenseForm = () => {
         </div>
 
         <div className='new-expense__control'>
-          <label>Amount</label>
-          <input type="number" min="0.01" step="0.01"/>
+          <label>pass</label>
+          <input type="password" onChange={ titleChangeHandler}/>
         </div>
 
         <div className='new-expense__control'>
