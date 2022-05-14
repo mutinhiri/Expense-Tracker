@@ -2,6 +2,8 @@ import React from 'react'
 import './ExpenseForm'
 
 const ExpenseForm = () => {
+  const titleChangeHandler = 
+  
   return(
     <form>
       <div className='new-expense__controls'>
