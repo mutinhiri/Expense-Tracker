@@ -3,6 +3,7 @@ import './ExpenseForm'
 
 const ExpenseForm = () => {
   const [titleState, setTitleState] = useState()
+  const [amountChange, setAmountChange] = useState()
 
   const titleChangeHandler = (e) => {
     setTitleState(e.target.value)
