@@ -20,7 +20,7 @@ const ExpenseForm = () => {
   }
   
   const dateChangeHandler = (e) => {
-    
+    setDatei(e.target.value)
   }
     // setUserInput({
     //   ...userInput,
@@ -39,7 +39,6 @@ const ExpenseForm = () => {
       date: new Date(datei)
     }
     console.log(newInfo)
-  }
 
   return(
     <form onSubmit={ submitHandler }>
