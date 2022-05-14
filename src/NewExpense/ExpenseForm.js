@@ -27,7 +27,7 @@ const ExpenseForm = () => {
     //   enteredTitle: e.target.value
     // })
   
-  }
+  
 
   const submitHandler  = (e) => {
     console.log('submitted')
@@ -38,8 +38,7 @@ const ExpenseForm = () => {
       amount: amountChange,
       date: new Date(datei)
     }
-    console.log(newInfo)
-
+  }
   return(
     <form onSubmit={ submitHandler }>
       <div className='new-expense__controls'>
