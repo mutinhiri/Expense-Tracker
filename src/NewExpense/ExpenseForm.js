@@ -15,6 +15,9 @@ const ExpenseForm = () => {
     // setTitleState(e.target.value)
     // setAmountChange(e.target.value)
     // setDatei(e.target.value)
+    setUserInput({
+      enteredTitle: e.target.value
+    })
   
   }
 
