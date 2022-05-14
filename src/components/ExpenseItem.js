@@ -5,6 +5,7 @@ import './ExpenseItem.css'
 
 function ExpenseItem(props) {
     let title = props.title
+    useState(props.title)
 
     const clickHandler = () => {
         console.log('click work')
