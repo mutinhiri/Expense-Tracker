@@ -13,6 +13,7 @@ const ExpenseForm = () => {
     useState({
       enteredTitle: '',
       enteredAmount: '',
+      enteredDate: ''
     })
   }
 
