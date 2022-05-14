@@ -9,6 +9,7 @@ const ExpenseForm = () => {
   const titleChangeHandler = (e) => {
     setTitleState(e.target.value)
     setAmountChange(e.target.value)
+    setDatei(e.target.value)
   }
 
   return(
