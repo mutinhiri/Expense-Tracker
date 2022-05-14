@@ -3,9 +3,11 @@ import './NewExpense.css'
 
 const NewExpense = () => {
     return(
-        <form>
+        <div>
+            <form>
             <p>Expense item rendered </p>
         </form>
+        </div>
     )
 }
 
