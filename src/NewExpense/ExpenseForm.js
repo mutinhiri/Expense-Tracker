@@ -40,6 +40,8 @@ const ExpenseForm = () => {
     }
     console.log(newInfo)
     setTitleState('')
+    setAmountChange('')
+    setDatei('')
   }
   return(
     <form onSubmit={ submitHandler }>
