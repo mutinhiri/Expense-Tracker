@@ -20,7 +20,7 @@ const ExpenseForm = () => {
           <input type="text" onChange={ titleChangeHandler }/>
         </div>
         
-<p>{amountChange}</p>
+<p>{datei}</p>
         <div className='new-expense__control'>
           <label>Amount</label>
           <input type="number" min="0.01" step="0.01" onChange={ titleChangeHandler}/>
