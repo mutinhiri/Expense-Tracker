@@ -20,11 +20,6 @@ const ExpenseForm = () => {
         </div>
 
         <div className='new-expense__control'>
-          <label>pass</label>
-          <input type="password" onChange={ titleChangeHandler }/>
-        </div>
-
-        <div className='new-expense__control'>
           <label>Date </label>
           <input type="date" min="2019-01-07" max="2022-12-12"/>
         </div>
