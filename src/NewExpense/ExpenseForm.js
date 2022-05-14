@@ -11,8 +11,8 @@ const ExpenseForm = () => {
         </div>
 
         <div className='new-expense__control'>
-          <label>Title</label>
-          <input type="text"/>
+          <label>Amount</label>
+          <input type="number"/>
         </div>
       </div>
     </form>
