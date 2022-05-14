@@ -1,4 +1,5 @@
 import ExpenseItem from "./components/ExpenseItem";
+import NewE
 
 function App() {
   const expenses = [
