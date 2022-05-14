@@ -2,9 +2,9 @@ import React, { useState} from 'react'
 import './ExpenseForm'
 
 const ExpenseForm = () => {
-  const [titleState, setTitleState] = useState()
-  const [amountChange, setAmountChange] = useState()
-  const [datei, setDatei] = useState()
+  const [titleState, setTitleState] = useState('')
+  const [amountChange, setAmountChange] = useState('')
+  const [datei, setDatei] = useState('')
   // const [userInput, setUserInput] = useState({
   //   enteredTitle: '',
   //   enteredAmount: '',
@@ -55,7 +55,7 @@ const ExpenseForm = () => {
 
         <div className='new-expense__control'>
           <label>Date </label>
-          <input type="date" min="2019-01-07" max="2022-12-12" onChange={titleChangeHandler}/>
+          <input type="date" min="2019-01-07" max="2022-12-12" onChange={setDatei}/>
         </div>
       </div>
       <div className='new-expense__actions'>
