@@ -29,6 +29,7 @@ const ExpenseForm = () => {
     const newInfo = {
       title: titleState,
       amount: amountChange,
+      date: new Date(datei)
     }
   }
 
