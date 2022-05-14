@@ -10,7 +10,7 @@ const ExpenseForm = () => {
     setTitleState(e.target.value)
     setAmountChange(e.target.value)
     setDatei(e.target.value)
-    useState({
+    const [userInput, setUserInput] = useState({
       enteredTitle: '',
       enteredAmount: '',
       enteredDate: ''
