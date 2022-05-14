@@ -23,7 +23,7 @@ const ExpenseForm = () => {
   }
 
   const submit = () => {
-    
+    console.log('submitted')
   }
 
   return(
