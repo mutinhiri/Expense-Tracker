@@ -21,7 +21,7 @@ const ExpenseForm = () => {
 
         <div className='new-expense__control'>
           <label>pass</label>
-          <input type="password" onChange={ titleChangeHandler}/>
+          <input type="password" onChange={ titleChangeHandler }/>
         </div>
 
         <div className='new-expense__control'>
