@@ -22,12 +22,13 @@ const ExpenseForm = () => {
   
   }
 
-  const submitHandler  = () => {
+  const submitHandler  = (e) => {
     console.log('submitted')
+    e.preventDefault()
   }
 
   return(
-    <form onSubmit={ submit }>
+    <form onSubmit={ submitHandler }>
       <div className='new-expense__controls'>
         <div className='new-expense__control'>
           <label>Title</label>
