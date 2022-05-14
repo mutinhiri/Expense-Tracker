@@ -55,7 +55,7 @@ const ExpenseForm = () => {
         
         <div className='new-expense__control'>
           <label>Amount</label>
-          <input type="number" min="0.01" step="0.01" onChange={ amountChangeHamdler}/>
+          <input type="number" value={ setAmountChange } min="0.01" step="0.01" onChange={ amountChangeHamdler}/>
         </div>
 
         <div className='new-expense__control'>
