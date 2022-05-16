@@ -8,7 +8,7 @@ const NewExpense = () => {
             ...enteredExpenseData,
             id: Math.random().toString()
         };
-        console.log()
+        console.log(expenseData)
 
     }
     return(
