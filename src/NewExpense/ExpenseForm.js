@@ -1,7 +1,7 @@
 import React, { useState} from 'react'
 import './ExpenseForm'
 
-const ExpenseForm = () => {
+const ExpenseForm = ( props ) => {
   const [titleState, setTitleState] = useState('')
   const [amountChange, setAmountChange] = useState('')
   const [datei, setDatei] = useState('')
