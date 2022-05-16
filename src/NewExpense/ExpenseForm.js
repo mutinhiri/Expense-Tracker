@@ -38,7 +38,8 @@ const ExpenseForm = () => {
       amount: amountChange,
       date: new Date(datei)
     }
-    console.log(newInfo)
+    // console.log(newInfo)
+    PaymentResponse.onSaveExpenseData()
     setTitleState('')
     setAmountChange('')
     setDatei('')
