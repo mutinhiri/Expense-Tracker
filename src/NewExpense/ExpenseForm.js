@@ -39,7 +39,7 @@ const ExpenseForm = () => {
       date: new Date(datei)
     }
     // console.log(newInfo)
-    PaymentResponse.onSaveExpenseData()
+    props.onSaveExpenseData()
     setTitleState('')
     setAmountChange('')
     setDatei('')
