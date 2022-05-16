@@ -7,7 +7,8 @@ const NewExpense = () => {
         const expenseData = {
             ...enteredExpenseData,
             id: Math.random().toString()
-        }
+        };
+        console.log()
 
     }
     return(
