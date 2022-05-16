@@ -21,8 +21,14 @@ function App() {
       id: "e3",
       title: "Food", 
       amount: 60, 
-      date: new Date(2022, 4, 12)}
+      date: new Date(2022, 4, 12)
+    }
   ];
+  const addExpenseHandler = (expense ) => {
+    
+  }
+
+
   return (
     <div>
       <NewExpense />
