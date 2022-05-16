@@ -4,7 +4,10 @@ import ExpenseForm from './ExpenseForm'
 
 const NewExpense = () => {
     const saveExpenseDataHandler = (enteredExpenseData) => {
-        
+        const expenseData = {
+            
+        }
+
     }
     return(
         <div className='new-expense'>
