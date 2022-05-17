@@ -15,7 +15,7 @@ const NewExpense = (props) => {
         <div className='new-expense'>
             <ExpenseForm onSaveExpenseData={saveExpenseDataHandler}/>
         </div>
-    )
+    );
 }
 
 export default NewExpense;
