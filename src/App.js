@@ -38,7 +38,7 @@ function App() {
 
   return (
     <div>
-      {expenses.map((expense) => <ExpenseItem title={expense.title} amount={expense.amount} date={expense.date}/>)}
+      {expenses.map((expense) => (<ExpenseItem title={expense.title} amount={expense.amount} date={expense.date}/>))}
       <NewExpense onAddExpense= { addExpenseHandler}/>
     </div>
   );
