@@ -3,7 +3,7 @@ import ExpenseItem from "./components/ExpenseItem";
 import NewExpense from "./NewExpense/NewExpense";
 
 function App() {
-  const INITIAL = [
+  const INITIAL_EXPENSES = [
     {
       id: "e1",
        title: "Car Insurance",
