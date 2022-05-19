@@ -39,7 +39,7 @@ function App() {
   return (
     <div>
       {expenses.map((expense) => (<ExpenseItem 
-        key
+        key={expense.id}
         title={expense.title} 
         amount={expense.amount} 
         date={expense.date}/>))}
