@@ -38,7 +38,7 @@ function App() {
 
   return (
     <div>
-      {expenses.length === 0 ? <p>No expenses found </p>}
+      {expenses.length === 0 ? <p>No expenses found </p>: expenses}
       {expenses.map((expense, index) => (<ExpenseItem 
         key={expense.id}
         title={expense.title} 
