@@ -38,7 +38,7 @@ function App() {
 
   return (
     <div>
-      {expenses.map((expense) => (<ExpenseItem 
+      {expenses.map((expense, index) => (<ExpenseItem 
         key={expense.id}
         title={expense.title} 
         amount={expense.amount} 
