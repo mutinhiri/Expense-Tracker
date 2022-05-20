@@ -4,7 +4,9 @@ import './Chart.css'
 
 const Chart = () => {
   return (
-    <div className='chart'>Chart</div>
+    <div className='chart'>
+      {props.dataPoints.map(dataPoint =>)}
+    </div>
   )
 }
 
