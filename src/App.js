@@ -48,7 +48,7 @@ function App() {
   return (
     <div>
       <NewExpense onAddExpense= { addExpenseHandler}/>
-      <ExpensesChart />
+      <ExpensesChart expenses={k}/>
       <ExpensesList items={expenses} />
     </div>
   );
