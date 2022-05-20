@@ -1,5 +1,6 @@
 import './ExpensesList.css'
 import React from 'react'
+import ExpenseItem from './ExpenseItem'
 
 const ExpensesList = (props) => {
   {expenses.length === 0 ? <p>No expenses found </p>: expenses.map((expense, index) => (<ExpenseItem 
