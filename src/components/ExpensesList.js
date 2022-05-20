@@ -9,6 +9,9 @@ const ExpensesList = (props) => {
     amount={expense.amount} 
     date={expense.date}/>))}
   
+    return <ul>
+      
+    </ul>
 }
 
 export default ExpensesList
