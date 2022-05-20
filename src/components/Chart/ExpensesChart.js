@@ -2,7 +2,9 @@ import React from 'react'
 import Chart from './Chart'
 
 const ExpensesChart = (props) => {
-  const chartDataPoints = []
+  const chartDataPoints = [
+    {}
+  ]
   return (
     <Chart />
   )
