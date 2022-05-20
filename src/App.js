@@ -23,6 +23,13 @@ function App() {
       title: "Food", 
       amount: 60, 
       date: new Date(2022, 4, 12)
+    },
+
+    {
+      id: 'e5',
+      title: 'Hard times',
+      amount: 50,
+      date: new Date(2021, 8, 5)
     }
   ];
 
