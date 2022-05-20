@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ChartBar = () => {
-  let barFillHeight = 
+  let barFillHeight = '0%'
   return (
     <div className='chart-bar'>
       <div className='chart-bar__inner'>
