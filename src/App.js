@@ -48,6 +48,7 @@ function App() {
   return (
     <div>
       <NewExpense onAddExpense= { addExpenseHandler}/>
+      <ExpensesChart />
       <ExpensesList items={expenses} />
     </div>
   );
