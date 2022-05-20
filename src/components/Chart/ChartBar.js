@@ -1,7 +1,9 @@
 import React from 'react'
 
 const ChartBar = () => {
-  let barFillHeight = '0%'
+  let barFillHeight = '0%';
+
+  if (props.max > 0)
   return (
     <div className='chart-bar'>
       <div className='chart-bar__inner'>
