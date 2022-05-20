@@ -18,7 +18,7 @@ const ExpensesChart = (props) => {
 
   ];
 
-  for (const)
+  for (const expense in props)
   return (
     <Chart />
   )
