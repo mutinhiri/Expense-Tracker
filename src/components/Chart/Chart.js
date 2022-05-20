@@ -5,7 +5,7 @@ import './Chart.css'
 const Chart = () => {
   return (
     <div className='chart'>
-      {props.dataPoints.map(dataPoint => <ChartBar value={dataPoint.value} />)}
+      {props.dataPoints.map(dataPoint => <ChartBar value={dataPoint.value} maxValue={null} />)}
     </div>
   )
 }
