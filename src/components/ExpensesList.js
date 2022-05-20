@@ -3,14 +3,12 @@ import React from 'react'
 import ExpenseItem from './ExpenseItem'
 
 const ExpensesList = (props) => {
-  {props.item.length === 0 ? <p>No expenses found </p>: props.item.map((expense, index) => (<ExpenseItem 
-    key={expense.id}
-    title={expense.title} 
-    amount={expense.amount} 
-    date={expense.date}/>))}
-  
     return <ul className='expenses-list'>
-
+      {props.items.length === 0 ? <p>No expenses found </p>: props.items.map((expense, index) => (<ExpenseItem 
+      key={expense.id}
+      title={expense.title} 
+      amount={expense.amount} 
+      date={expense.date}/>))}
     </ul>
 }
 
