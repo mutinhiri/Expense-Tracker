@@ -45,12 +45,6 @@ function App() {
 
   return (
     <div>
-      {expenses.length === 0 ? <p>No expenses found </p>: expenses.map((expense, index) => (<ExpenseItem 
-        key={expense.id}
-        title={expense.title} 
-        amount={expense.amount} 
-        date={expense.date}/>))}
-      
       <NewExpense onAddExpense= { addExpenseHandler}/>
     </div>
   );
