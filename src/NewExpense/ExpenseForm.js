@@ -1,16 +1,11 @@
 import React, { useState} from 'react'
 import './ExpenseForm'
 
-const ExpenseForm = () => {
+const ExpenseForm = ( props ) => {
   const [titleState, setTitleState] = useState('')
   const [amountChange, setAmountChange] = useState('')
   const [datei, setDatei] = useState('')
-  // const [userInput, setUserInput] = useState({
-  //   enteredTitle: '',
-  //   enteredAmount: '',
-  //   enteredDate: ''
-  // })
-
+  
   const titleChangeHandler = (e) => {
     setTitleState(e.target.value)
   }
@@ -35,10 +30,11 @@ const ExpenseForm = () => {
 
     const newInfo = {
       title: titleState,
-      amount: amountChange,
+      amount: +amountChange,
       date: new Date(datei)
     }
-    console.log(newInfo)
+    // console.log(newInfo)
+    props.onSaveExpenseData()
     setTitleState('')
     setAmountChange('')
     setDatei('')
